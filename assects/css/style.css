@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+}
+
+ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width:1108px;
+  margin:0 auto;
+}
+
+:root{
+  --black:#151515;
+  --green:#4EE1A0;
+  --dark-gray:#242424;
+  --gray:#d9d9d9;
+  --white:#FFFFFF;
+
+}
+
+
+
+/* header css start */
+
+.header-area {
+	background-color: var(--black);
+	padding-top: 39px;
+}
+
+
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu ul {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.main-menu ul li a img {
+	width: 24px;
+	height: 24px;
+}
+/* header css end */
+
+/* hero css start */
+
+.hero-area{
+  background-color: var(--black);
+}
+
+.hero-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-left h2{
+  font-size: 88px;
+  letter-spacing: 2.5px;
+  line-height: 88px;
+  font-weight: 700;
+  color: var(--white);
+
+}
+
+
+.hero-left p {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 43px;
+  margin-bottom: 66px;
+	line-height: 28px;
+	width: 445px;
+  color: var(--gray);
+}
+
+.hero-left a{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  transition:.2s;
+}
+
+.hero-left a:hover{
+  color: var(--green);
+}
+
+.right-img {
+	background-image: url(../img/hero/man.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 445px;
+	height: 720px;
+}
+
+/* hero css end */
+
+
+/* skilled css start */
+
+.skill-area{
+  background-color: var(--black);
+  padding:70px 0px;
+}
+
+.skill-wrap {
+	display: flex;
+  flex-wrap: wrap;
+  gap: 58px;
+
+}
+
+.single-item {
+  width: 324px;
+}
+
+.single-item h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+
+}
+.single-item p{
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--gray);
+  font-weight: 600;
+
+}
+
+/* skilled css end */
+
+
+
+/* project css start */
+
+
+.project-area {
+	background-color: var(--black);
+	padding: 140px 0px;
+}
+
+.project-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  margin-bottom: 80px;
+}
+
+.project-top h2{
+  font-size: 88px;
+  font-weight: 700;
+  color: var(--white);
+}
+.project-top h4{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--gray);
+  text-transform: uppercase;
+}
+
+.project-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 27px;
+	justify-content: space-between;
+}
+
+.project-item {
+	margin-bottom: 70px;
+  width: 540px;
+}
+.project-item img {
+	width: 100%;
+}
+.project-item h4{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+  margin-top:20px;
+  margin-bottom:7px;
+}
+.project-item span{
+  font-size: 18px;
+  color: var(--gray);
+  font-weight: 400;
+  display: inline-block;
+}
+
+
+
+/* project css end */
